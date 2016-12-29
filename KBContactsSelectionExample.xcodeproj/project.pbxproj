@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		75C4CF7E4C611113F6AF743F /* libPods-KBContactsSelectionExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F7BCC02A23C2CA0F417AE24 /* libPods-KBContactsSelectionExample.a */; };
+		87E79A44237B1F860231775C /* libPods-KBContactsSelectionExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 003A4BD61D5AFAFD2FF501CD /* libPods-KBContactsSelectionExample.a */; };
 		8E89D5D71A3CA8B6001CE6D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E89D5D61A3CA8B6001CE6D7 /* main.m */; };
 		8E89D5DA1A3CA8B6001CE6D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E89D5D91A3CA8B6001CE6D7 /* AppDelegate.m */; };
 		8E89D5DD1A3CA8B6001CE6D7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E89D5DC1A3CA8B6001CE6D7 /* ViewController.m */; };
@@ -24,6 +24,7 @@
 		8E89D6101A3CB5F6001CE6D7 /* APContact+FullName.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E89D60F1A3CB5F6001CE6D7 /* APContact+FullName.m */; };
 		8EA2FD7B1A407C4B00332755 /* KBContactsSelectionConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA2FD7A1A407C4B00332755 /* KBContactsSelectionConfiguration.m */; };
 		8EA2FD7D1A408A8000332755 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EA2FD7C1A408A8000332755 /* MessageUI.framework */; };
+		DFC8FE061625D30815E6EAF9 /* libPods-KBContactsSelectionExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5562B2BAB13212ED56270A12 /* libPods-KBContactsSelectionExampleTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1F7BCC02A23C2CA0F417AE24 /* libPods-KBContactsSelectionExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KBContactsSelectionExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		003A4BD61D5AFAFD2FF501CD /* libPods-KBContactsSelectionExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KBContactsSelectionExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		096A6DD27987B5AB1AD34636 /* Pods-KBContactsSelectionExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KBContactsSelectionExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-KBContactsSelectionExample/Pods-KBContactsSelectionExample.release.xcconfig"; sourceTree = "<group>"; };
+		10F7C834AFEBB7869436EB2C /* Pods-KBContactsSelectionExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KBContactsSelectionExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KBContactsSelectionExample/Pods-KBContactsSelectionExample.debug.xcconfig"; sourceTree = "<group>"; };
+		5562B2BAB13212ED56270A12 /* libPods-KBContactsSelectionExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KBContactsSelectionExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E89D5D11A3CA8B6001CE6D7 /* KBContactsSelectionExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KBContactsSelectionExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E89D5D51A3CA8B6001CE6D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E89D5D61A3CA8B6001CE6D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -66,8 +70,8 @@
 		8EA2FD791A407C4B00332755 /* KBContactsSelectionConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBContactsSelectionConfiguration.h; sourceTree = "<group>"; };
 		8EA2FD7A1A407C4B00332755 /* KBContactsSelectionConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBContactsSelectionConfiguration.m; sourceTree = "<group>"; };
 		8EA2FD7C1A408A8000332755 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
-		A9CB46BDAB0549C2A36BE3C5 /* Pods-KBContactsSelectionExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KBContactsSelectionExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KBContactsSelectionExample/Pods-KBContactsSelectionExample.debug.xcconfig"; sourceTree = "<group>"; };
-		AA483AA219930DF2E6570916 /* Pods-KBContactsSelectionExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KBContactsSelectionExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-KBContactsSelectionExample/Pods-KBContactsSelectionExample.release.xcconfig"; sourceTree = "<group>"; };
+		A19B080C15708E47990E0FC8 /* Pods-KBContactsSelectionExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KBContactsSelectionExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KBContactsSelectionExampleTests/Pods-KBContactsSelectionExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		C17BF01B4D9D13564A6FD090 /* Pods-KBContactsSelectionExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KBContactsSelectionExampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KBContactsSelectionExampleTests/Pods-KBContactsSelectionExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +80,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EA2FD7D1A408A8000332755 /* MessageUI.framework in Frameworks */,
-				75C4CF7E4C611113F6AF743F /* libPods-KBContactsSelectionExample.a in Frameworks */,
+				87E79A44237B1F860231775C /* libPods-KBContactsSelectionExample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,26 +88,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFC8FE061625D30815E6EAF9 /* libPods-KBContactsSelectionExampleTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		57D93EEB4FA514A7C53CC089 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				A9CB46BDAB0549C2A36BE3C5 /* Pods-KBContactsSelectionExample.debug.xcconfig */,
-				AA483AA219930DF2E6570916 /* Pods-KBContactsSelectionExample.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		6967E0D7F87E81DF45EC070D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				8EA2FD7C1A408A8000332755 /* MessageUI.framework */,
-				1F7BCC02A23C2CA0F417AE24 /* libPods-KBContactsSelectionExample.a */,
+				003A4BD61D5AFAFD2FF501CD /* libPods-KBContactsSelectionExample.a */,
+				5562B2BAB13212ED56270A12 /* libPods-KBContactsSelectionExampleTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -115,8 +112,8 @@
 				8E89D5D31A3CA8B6001CE6D7 /* KBContactsSelectionExample */,
 				8E89D5ED1A3CA8B6001CE6D7 /* KBContactsSelectionExampleTests */,
 				8E89D5D21A3CA8B6001CE6D7 /* Products */,
-				57D93EEB4FA514A7C53CC089 /* Pods */,
 				6967E0D7F87E81DF45EC070D /* Frameworks */,
+				933E9BFC45A4A3603218D1DD /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -191,6 +188,17 @@
 			path = KBContactsSelection;
 			sourceTree = "<group>";
 		};
+		933E9BFC45A4A3603218D1DD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				10F7C834AFEBB7869436EB2C /* Pods-KBContactsSelectionExample.debug.xcconfig */,
+				096A6DD27987B5AB1AD34636 /* Pods-KBContactsSelectionExample.release.xcconfig */,
+				C17BF01B4D9D13564A6FD090 /* Pods-KBContactsSelectionExampleTests.debug.xcconfig */,
+				A19B080C15708E47990E0FC8 /* Pods-KBContactsSelectionExampleTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -198,12 +206,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8E89D5F41A3CA8B6001CE6D7 /* Build configuration list for PBXNativeTarget "KBContactsSelectionExample" */;
 			buildPhases = (
-				39F80C56EA2581B8040C3231 /* Check Pods Manifest.lock */,
+				EA09F8D0BD99566225F345E9 /* [CP] Check Pods Manifest.lock */,
 				8E89D5CD1A3CA8B6001CE6D7 /* Sources */,
 				8E89D5CE1A3CA8B6001CE6D7 /* Frameworks */,
 				8E89D5CF1A3CA8B6001CE6D7 /* Resources */,
-				308335FCB7A1F66B168B5A40 /* Copy Pods Resources */,
-				DDE45013F81762B152C74461 /* Embed Pods Frameworks */,
+				0C02DAE37F2A93EC69FD0480 /* [CP] Embed Pods Frameworks */,
+				7BD32F93210BFD84EB9ACC97 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -218,9 +226,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8E89D5F71A3CA8B6001CE6D7 /* Build configuration list for PBXNativeTarget "KBContactsSelectionExampleTests" */;
 			buildPhases = (
+				857D20F8D1616225CFE9B631 /* [CP] Check Pods Manifest.lock */,
 				8E89D5E61A3CA8B6001CE6D7 /* Sources */,
 				8E89D5E71A3CA8B6001CE6D7 /* Frameworks */,
 				8E89D5E81A3CA8B6001CE6D7 /* Resources */,
+				73F8383C368CDA2C43EC8A50 /* [CP] Embed Pods Frameworks */,
+				B847B1DEE21EDC916118E1E4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -292,14 +303,44 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		308335FCB7A1F66B168B5A40 /* Copy Pods Resources */ = {
+		0C02DAE37F2A93EC69FD0480 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KBContactsSelectionExample/Pods-KBContactsSelectionExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73F8383C368CDA2C43EC8A50 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KBContactsSelectionExampleTests/Pods-KBContactsSelectionExampleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BD32F93210BFD84EB9ACC97 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,34 +348,49 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KBContactsSelectionExample/Pods-KBContactsSelectionExample-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		39F80C56EA2581B8040C3231 /* Check Pods Manifest.lock */ = {
+		857D20F8D1616225CFE9B631 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		DDE45013F81762B152C74461 /* Embed Pods Frameworks */ = {
+		B847B1DEE21EDC916118E1E4 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KBContactsSelectionExample/Pods-KBContactsSelectionExample-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KBContactsSelectionExampleTests/Pods-KBContactsSelectionExampleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA09F8D0BD99566225F345E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -475,7 +531,7 @@
 		};
 		8E89D5F51A3CA8B6001CE6D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A9CB46BDAB0549C2A36BE3C5 /* Pods-KBContactsSelectionExample.debug.xcconfig */;
+			baseConfigurationReference = 10F7C834AFEBB7869436EB2C /* Pods-KBContactsSelectionExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = KBContactsSelectionExample/Info.plist;
@@ -487,7 +543,7 @@
 		};
 		8E89D5F61A3CA8B6001CE6D7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AA483AA219930DF2E6570916 /* Pods-KBContactsSelectionExample.release.xcconfig */;
+			baseConfigurationReference = 096A6DD27987B5AB1AD34636 /* Pods-KBContactsSelectionExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = KBContactsSelectionExample/Info.plist;
@@ -499,6 +555,7 @@
 		};
 		8E89D5F81A3CA8B6001CE6D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C17BF01B4D9D13564A6FD090 /* Pods-KBContactsSelectionExampleTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -519,6 +576,7 @@
 		};
 		8E89D5F91A3CA8B6001CE6D7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A19B080C15708E47990E0FC8 /* Pods-KBContactsSelectionExampleTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
