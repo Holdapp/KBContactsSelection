@@ -125,7 +125,6 @@
 - (void)customizeColors
 {
     _navigationBarSearchContacts.tintColor = _configuration.tintColor;
-    self.navigationController.navigationBar.tintColor = [UIColor whiteColor];
     _searchBar.tintColor = _configuration.tintColor;
     _tableView.sectionIndexColor = _configuration.tintColor;
 }
