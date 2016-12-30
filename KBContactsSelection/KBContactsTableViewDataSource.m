@@ -81,7 +81,7 @@ static NSString *cellIdentifier = @"KBContactCell";
     ab.sortDescriptors = @[[NSSortDescriptor sortDescriptorWithKey:@"name.firstName" ascending:YES]];
     
     ab.filterBlock = ^BOOL(APContact *contact){
-        if (contact.fullName.length > 1 || contact.job) {
+        if (contact.fullName.length > 1 || contact.job.company) {
             return YES;
         }
         return NO;
@@ -297,27 +297,23 @@ static NSString *cellIdentifier = @"KBContactCell";
     
     APContact *contact = [self contactAtIndexPath:indexPath];
     if (contact) {
-        cell.labelName.text = [contact fullName];
+        if (contact.job.company) {
+            cell.labelName.text = contact.job.company;
+        } else {
+            cell.labelName.text = [contact fullName];
+        }
         
         NSString * typeText = @"";
         NSString * phoneText = nil;
-        if (_configuration.mode & KBContactsSelectionModeMessages) {
-            if (contact.phones.count > 0) {
-                APPhone *phone = contact.phones[0];
-                if (phone) {
-                    phoneText = phone.number;
-                    typeText = phone.localizedLabel;
-                }
+        APPhone *phone = contact.phones[0];
+        if (contact.emails.count > 0) {
+            if (!phoneText) {
+                phoneText = contact.emails[0].address;
+            } else {
+                phoneText = [NSString stringWithFormat:@"%@, %@", phoneText, contact.emails[0].address];
             }
-        }
-        if (_configuration.mode & KBContactsSelectionModeEmail) {
-            if (contact.emails.count > 0) {
-                if (!phoneText) {
-                    phoneText = contact.emails[0].address;
-                } else {
-                    phoneText = [NSString stringWithFormat:@"%@, %@", phoneText, contact.emails[0].address];
-                }
-            }
+        } else if (phone) {
+            phoneText = phone.number;
         }
         cell.labelPhone.text = phoneText;
         cell.labelPhoneType.text = typeText;
